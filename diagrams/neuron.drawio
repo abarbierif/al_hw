@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-23T15:00:45.687Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="9Rc-PL7JA6iZqoGqi_on" version="24.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-23T16:31:19.603Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="s4QPn8U19MB9rlKfLKBq" version="24.7.1" type="github">
   <diagram name="Page-1" id="povJLxmm60_3jmOiNp00">
-    <mxGraphModel dx="503" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="70" pageHeight="120" math="1" shadow="0">
+    <mxGraphModel dx="568" dy="293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="70" pageHeight="120" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,13 +103,13 @@
         <mxCell id="Yzb6h1gt6XA_bgGxlnhN-28" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;$$w_n$$&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50.75" y="147" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XruBZ6aIcLVyrYQfcny_-2" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="XruBZ6aIcLVyrYQfcny_-2" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="230" y="10" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yzb6h1gt6XA_bgGxlnhN-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{Activación}$$&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="XruBZ6aIcLVyrYQfcny_-2" vertex="1">
           <mxGeometry width="90" height="11" as="geometry" />
         </mxCell>
-        <mxCell id="XruBZ6aIcLVyrYQfcny_-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{Función}\hspace{1mm}\text{de}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XruBZ6aIcLVyrYQfcny_-2">
+        <mxCell id="XruBZ6aIcLVyrYQfcny_-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{Función de}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="XruBZ6aIcLVyrYQfcny_-2" vertex="1">
           <mxGeometry x="9" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
