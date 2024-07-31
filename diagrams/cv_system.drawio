@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
   <diagram name="Page-1" id="JxggovlWyexlgdlLdRes">
-    <mxGraphModel>
+    <mxGraphModel dx="1510" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="70" pageHeight="120" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aRPjxufFiL5iSVKI2Um8-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="-60.75" width="300" height="220.75" as="geometry" />
+        </mxCell>
+        <mxCell id="aRPjxufFiL5iSVKI2Um8-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://media.lordicon.com/icons/wired/lineal/426-brain.svg;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="-70" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="aRPjxufFiL5iSVKI2Um8-5" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Laptop.svg;" vertex="1" parent="1">
+          <mxGeometry x="29.970000000000006" y="-0.75" width="100.07" height="101.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aRPjxufFiL5iSVKI2Um8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRPjxufFiL5iSVKI2Um8-6" target="aRPjxufFiL5iSVKI2Um8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRPjxufFiL5iSVKI2Um8-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="-60.75" width="300" height="220.75" as="geometry" />
+        </mxCell>
+        <mxCell id="aRPjxufFiL5iSVKI2Um8-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Dispositivo interpretador&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="-100" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aRPjxufFiL5iSVKI2Um8-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Dispositivo de adquisición&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-100" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aRPjxufFiL5iSVKI2Um8-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aRPjxufFiL5iSVKI2Um8-13" target="aRPjxufFiL5iSVKI2Um8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRPjxufFiL5iSVKI2Um8-13" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;flipH=1;size=60;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="-40" width="55" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aRPjxufFiL5iSVKI2Um8-15" value="" style="shape=mxgraph.signs.animals.dog_on_leash;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-624" y="16.630000000000003" width="43" height="66" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
