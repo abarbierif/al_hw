@@ -23,11 +23,11 @@ arch = [
     to_connection("Conv6","Conv7"),
     to_Pool(name="Pool8", offset="(1,0,0)", to="(Conv7-east)", height=6, depth=6, width=16, caption="Pool8"),
     to_connection("Conv7","Pool8"),
-    to_ConvRes(name="FC9", s_filer=4096, n_filer=1, offset="(1,0,0)", to="(Pool8-east)", width=1, height=1, depth=256, opacity=0.2, caption="FC9"),
+    to_ConvRes(name="FC9", s_filer=4096, n_filer=1, offset="(1,0,0)", to="(Pool8-east)", width=1.5, height=1.5, depth=64, opacity=0.2, caption="FC9"),
     to_connection("Pool8","FC9"),
-    to_ConvRes(name="FC10", s_filer=4096, n_filer=1, offset="(1,0,0)", to="(FC9-east)", width=1, height=1, depth=256, opacity=0.2, caption="FC10"),
+    to_ConvRes(name="FC10", s_filer=4096, n_filer=1, offset="(1,0,0)", to="(FC9-east)", width=1.5, height=1.5, depth=64, opacity=0.2, caption="FC10"),
     to_connection("FC9","FC10"),
-    to_SoftMax(name="Salida", s_filer=1000, offset="(1,0,0)", to="(FC10-east)", width=1, height=1, depth=60, opacity=0.8, caption="Salida"), 
+    to_SoftMax(name="Salida", s_filer=1000, offset="(1,0,0)", to="(FC10-east)", width=1.5, height=1.5, depth=16, opacity=0.8, caption="Salida"), 
     to_connection("FC10","Salida"),
     to_end()
     ]

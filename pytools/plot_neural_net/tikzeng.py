@@ -184,14 +184,14 @@ def to_connection( of, to):
 \draw [connection]  ("""+of+"""-east)    -- node {\midarrow} ("""+to+"""-west);
 """
 
-def to_skip( of, to, pos=1.25):
+def to_skip(of, to, pos=1.25):
     return r"""
-\path ("""+ of +"""-southeast) -- ("""+ of +"""-northeast) coordinate[pos="""+ str(pos) +"""] ("""+ of +"""-top) ;
-\path ("""+ to +"""-south)  -- ("""+ to +"""-north)  coordinate[pos="""+ str(pos) +"""] ("""+ to +"""-top) ;
-\draw [copyconnection]  ("""+of+"""-northeast)  
--- node {\copymidarrow}("""+of+"""-top)
--- node {\copymidarrow}("""+to+"""-top)
--- node {\copymidarrow} ("""+to+"""-north);
+\path ("""+ of +"""-east) -- ++(0.5,0,0) coordinate[pos="""+ str(pos) +"""] ("""+ of +"""-intermediate) ;
+\path ("""+ to +"""-west)  -- ++(-0.5,0,0)  coordinate[pos="""+ str(pos) +"""] ("""+ to +"""-intermediate) ;
+\draw [copyconnection]  ("""+of+"""-east)  
+-- node {\copymidarrow}("""+of+"""-intermediate)
+-- node {\copymidarrow}("""+to+"""-intermediate)
+-- node {\copymidarrow} ("""+to+"""-west);
 """
 
 def to_end():

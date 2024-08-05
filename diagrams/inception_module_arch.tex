@@ -1,0 +1,250 @@
+
+\documentclass[border=8pt, multi, tikz]{standalone} 
+\usepackage{import}
+\subimport{../pytools/plot_neural_net/layers/}{init}
+\usetikzlibrary{positioning}
+\usetikzlibrary{3d} %for including external image 
+
+\def\ConvColor{rgb:yellow,5;red,2.5;white,5}
+\def\ConvReluColor{rgb:yellow,5;red,5;white,5}
+\def\PoolColor{rgb:red,1;black,0.3}
+\def\UnpoolColor{rgb:blue,2;green,1;black,0.3}
+\def\FcColor{rgb:blue,5;red,2.5;white,5}
+\def\FcReluColor{rgb:blue,5;red,5;white,4}
+\def\SoftmaxColor{rgb:magenta,5;black,7}   
+\def\SumColor{rgb:blue,5;green,15}
+\def\Concat{rgb:black,1;white,0.1}
+
+\newcommand{\copymidarrow}{\tikz \draw[-Stealth,line width=0.8mm,draw={rgb:blue,4;red,1;green,1;black,3}] (-0.3,0) -- ++(0.3,0);}
+
+\begin{document}
+\begin{tikzpicture}
+\tikzstyle{connection}=[ultra thick,every node/.style={sloped,allow upside down},draw={rgb:blue,4;red,1;green,1;black,3},opacity=0.7]
+\tikzstyle{copyconnection}=[ultra thick,every node/.style={sloped,allow upside down},draw={rgb:blue,4;red,1;green,1;black,3},opacity=0.7]
+
+\pic[shift={ (0,0,0) }] at (0,0,0) 
+    {Box={
+        name=previous_layer,
+        caption=In,
+        fill=\UnpoolColor,
+        opacity=0,
+        height=0,
+        width=0,
+        depth=0
+        }
+    };
+
+\pic[shift={(5,2.5,0)}] at (previous_layer-east) 
+    {Box={
+        name=1x1,
+        caption=1x1,
+        xlabel={{64, }},
+        zlabel=28,
+        fill=\ConvColor,
+        height=14,
+        width=7,
+        depth=14
+        }
+    };
+
+\pic[shift={(5,-7.5,0)}] at (previous_layer-east) 
+    {Box={
+        name=3x3_reduce,
+        caption=3x3r,
+        xlabel={{96, }},
+        zlabel=28,
+        fill=\ConvColor,
+        height=14,
+        width=9,
+        depth=14
+        }
+    };
+
+\pic[shift={(1,0,0)}] at (3x3_reduce-east) 
+    {Box={
+        name=3x3,
+        caption=3x3,
+        xlabel={{128, }},
+        zlabel=28,
+        fill=\ConvColor,
+        height=14,
+        width=11,
+        depth=14
+        }
+    };
+
+\pic[shift={(5,-2.5,0)}] at (previous_layer-east) 
+    {Box={
+        name=5x5_reduce,
+        caption=5x5r,
+        xlabel={{16, }},
+        zlabel=28,
+        fill=\ConvColor,
+        height=14,
+        width=4,
+        depth=14
+        }
+    };
+
+\pic[shift={(1,0,0)}] at (5x5_reduce-east) 
+    {Box={
+        name=5x5,
+        caption=5x5,
+        xlabel={{32, }},
+        zlabel=28,
+        fill=\ConvColor,
+        height=14,
+        width=5,
+        depth=14
+        }
+    };
+
+\pic[shift={ (5,7.5,0) }] at (previous_layer-east) 
+    {Box={
+        name=max_pool,
+        caption=max,
+        fill=\PoolColor,
+        opacity=0.5,
+        height=14,
+        width=5,
+        depth=14
+        }
+    };
+
+\pic[shift={(1,0,0)}] at (max_pool-east) 
+    {Box={
+        name=1x1_max_pool,
+        caption=max 1x1,
+        xlabel={{32, }},
+        zlabel=28,
+        fill=\ConvColor,
+        height=14,
+        width=5,
+        depth=14
+        }
+    };
+
+\pic[shift={(15,0,0)}] at (previous_layer-east) 
+    {Box={
+        name=branches,
+        caption=Concat,
+        fill=\Concat,
+        opacity=0.5,
+        height=18,
+        width=16,
+        depth=18
+        }
+    };
+
+\pic[shift={ (0.5,0,0) }] at (branches-west) 
+    {Box={
+        name=branch1,
+        caption=,
+        fill=\UnpoolColor,
+        opacity=0.5,
+        height=14,
+        width=1,
+        depth=14
+        }
+    };
+
+\pic[shift={ (0.5,0,0) }] at (branch1-east) 
+    {Box={
+        name=branch2,
+        caption=,
+        fill=\UnpoolColor,
+        opacity=0.5,
+        height=14,
+        width=1,
+        depth=14
+        }
+    };
+
+\pic[shift={ (0.5,0,0) }] at (branch2-east) 
+    {Box={
+        name=branch3,
+        caption=,
+        fill=\UnpoolColor,
+        opacity=0.5,
+        height=14,
+        width=1,
+        depth=14
+        }
+    };
+
+\pic[shift={ (0.5,0,0) }] at (branch3-east) 
+    {Box={
+        name=branch4,
+        caption=,
+        fill=\UnpoolColor,
+        opacity=0.5,
+        height=14,
+        width=1,
+        depth=14
+        }
+    };
+
+\draw [connection]  (3x3_reduce-east)    -- node {\copymidarrow} (3x3-west);
+
+\draw [connection]  (5x5_reduce-east)    -- node {\copymidarrow} (5x5-west);
+
+\draw [connection]  (max_pool-east)    -- node {\copymidarrow} (1x1_max_pool-west);
+
+\path (previous_layer-east) -- ++(0.5,0,0) coordinate[pos=5] (previous_layer-intermediate) ;
+\path (1x1-west)  -- ++(-0.5,0,0)  coordinate[pos=5] (1x1-intermediate) ;
+\draw [copyconnection]  (previous_layer-east)  
+-- node {\copymidarrow}(previous_layer-intermediate)
+-- node {\copymidarrow}(1x1-intermediate)
+-- node {\copymidarrow} (1x1-west);
+
+\path (previous_layer-east) -- ++(0.5,0,0) coordinate[pos=5] (previous_layer-intermediate) ;
+\path (3x3_reduce-west)  -- ++(-0.5,0,0)  coordinate[pos=5] (3x3_reduce-intermediate) ;
+\draw [copyconnection]  (previous_layer-east)  
+-- node {\copymidarrow}(previous_layer-intermediate)
+-- node {\copymidarrow}(3x3_reduce-intermediate)
+-- node {\copymidarrow} (3x3_reduce-west);
+
+\path (previous_layer-east) -- ++(0.5,0,0) coordinate[pos=5] (previous_layer-intermediate) ;
+\path (5x5_reduce-west)  -- ++(-0.5,0,0)  coordinate[pos=5] (5x5_reduce-intermediate) ;
+\draw [copyconnection]  (previous_layer-east)  
+-- node {\copymidarrow}(previous_layer-intermediate)
+-- node {\copymidarrow}(5x5_reduce-intermediate)
+-- node {\copymidarrow} (5x5_reduce-west);
+
+\path (previous_layer-east) -- ++(0.5,0,0) coordinate[pos=5] (previous_layer-intermediate) ;
+\path (max_pool-west)  -- ++(-0.5,0,0)  coordinate[pos=5] (max_pool-intermediate) ;
+\draw [copyconnection]  (previous_layer-east)  
+-- node {\copymidarrow}(previous_layer-intermediate)
+-- node {\copymidarrow}(max_pool-intermediate)
+-- node {\copymidarrow} (max_pool-west);
+
+\path (1x1-east) -- ++(0.5,0,0) coordinate[pos=4] (1x1-intermediate) ;
+\path (branches-west)  -- ++(-0.5,0,0)  coordinate[pos=4] (branches-intermediate) ;
+\draw [copyconnection]  (1x1-east)  
+-- node {\copymidarrow}(1x1-intermediate)
+-- node {\copymidarrow}(branches-intermediate)
+-- node {\copymidarrow} (branches-west);
+
+\path (3x3-east) -- ++(0.5,0,0) coordinate[pos=4] (3x3-intermediate) ;
+\path (branches-west)  -- ++(-0.5,0,0)  coordinate[pos=4] (branches-intermediate) ;
+\draw [copyconnection]  (3x3-east)  
+-- node {\copymidarrow}(3x3-intermediate)
+-- node {\copymidarrow}(branches-intermediate)
+-- node {\copymidarrow} (branches-west);
+
+\path (5x5-east) -- ++(0.5,0,0) coordinate[pos=4] (5x5-intermediate) ;
+\path (branches-west)  -- ++(-0.5,0,0)  coordinate[pos=4] (branches-intermediate) ;
+\draw [copyconnection]  (5x5-east)  
+-- node {\copymidarrow}(5x5-intermediate)
+-- node {\copymidarrow}(branches-intermediate)
+-- node {\copymidarrow} (branches-west);
+
+\path (1x1_max_pool-east) -- ++(0.5,0,0) coordinate[pos=4] (1x1_max_pool-intermediate) ;
+\path (branches-west)  -- ++(-0.5,0,0)  coordinate[pos=4] (branches-intermediate) ;
+\draw [copyconnection]  (1x1_max_pool-east)  
+-- node {\copymidarrow}(1x1_max_pool-intermediate)
+-- node {\copymidarrow}(branches-intermediate)
+-- node {\copymidarrow} (branches-west);
+
+\end{tikzpicture}
+\end{document}

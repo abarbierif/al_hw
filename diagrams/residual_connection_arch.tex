@@ -1,0 +1,219 @@
+
+\documentclass[border=8pt, multi, tikz]{standalone} 
+\usepackage{import}
+\subimport{../pytools/plot_neural_net/layers/}{init}
+\usetikzlibrary{positioning}
+\usetikzlibrary{3d} %for including external image 
+
+\def\ConvColor{rgb:yellow,5;red,2.5;white,5}
+\def\ConvReluColor{rgb:yellow,5;red,5;white,5}
+\def\PoolColor{rgb:red,1;black,0.3}
+\def\UnpoolColor{rgb:blue,2;green,1;black,0.3}
+\def\FcColor{rgb:blue,5;red,2.5;white,5}
+\def\FcReluColor{rgb:blue,5;red,5;white,4}
+\def\SoftmaxColor{rgb:magenta,5;black,7}   
+\def\SumColor{rgb:blue,5;green,15}
+\def\GreenColor{rgb:green,5;red,2.5;black,3;white,5}
+
+\newcommand{\copymidarrow}{\tikz \draw[-Stealth,line width=0.8mm,draw={rgb:blue,4;red,1;green,1;black,3}] (-0.3,0) -- ++(0.3,0);}
+
+\begin{document}
+\begin{tikzpicture}
+\tikzstyle{connection}=[ultra thick,every node/.style={sloped,allow upside down},draw={rgb:blue,4;red,1;green,1;black,3},opacity=0.7]
+\tikzstyle{copyconnection}=[ultra thick,every node/.style={sloped,allow upside down},draw={rgb:blue,4;red,1;green,1;black,3},opacity=0.7]
+
+\pic[shift={ (0,0,0) }] at (0,0,0) 
+    {Box={
+        name=previous_layer,
+        caption=In,
+        fill=\UnpoolColor,
+        opacity=0.0,
+        height=0,
+        width=0,
+        depth=0
+        }
+    };
+
+\pic[shift={(5,0,0)}] at (previous_layer-east) 
+    {Box={
+        name=1x1_in,
+        caption=1x1,
+        xlabel={{64, }},
+        zlabel=56,
+        fill=\ConvColor,
+        height=14,
+        width=4,
+        depth=14
+        }
+    };
+
+\pic[shift={ (1,0,0) }] at (1x1_in-east) 
+    {Box={
+        name=BN_1x1_in,
+        caption=BN,
+        fill=\PoolColor,
+        opacity=0.5,
+        height=10,
+        width=10,
+        depth=0
+        }
+    };
+
+\pic[shift={(0,0,0)}] at (BN_1x1_in-east) 
+    {Box={
+        name=relu_1x1_in,
+        caption=ReLU,
+        xlabel={{, }},
+        zlabel=,
+        fill=\GreenColor,
+        height=10,
+        width=10,
+        depth=0
+        }
+    };
+
+\pic[shift={(2,0,0)}] at (relu_1x1_in-east) 
+    {Box={
+        name=3x3,
+        caption=3x3,
+        xlabel={{64, }},
+        zlabel=56,
+        fill=\ConvColor,
+        height=14,
+        width=4,
+        depth=14
+        }
+    };
+
+\pic[shift={ (1,0,0) }] at (3x3-east) 
+    {Box={
+        name=BN_3x3,
+        caption=BN,
+        fill=\PoolColor,
+        opacity=0.5,
+        height=10,
+        width=10,
+        depth=0
+        }
+    };
+
+\pic[shift={(0,0,0)}] at (BN_3x3-east) 
+    {Box={
+        name=relu_3x3,
+        caption=ReLU,
+        xlabel={{, }},
+        zlabel=,
+        fill=\GreenColor,
+        height=10,
+        width=10,
+        depth=0
+        }
+    };
+
+\pic[shift={(2,0,0)}] at (relu_3x3-east) 
+    {Box={
+        name=1x1_out,
+        caption=1x1,
+        xlabel={{256, }},
+        zlabel=56,
+        fill=\ConvColor,
+        height=14,
+        width=16,
+        depth=14
+        }
+    };
+
+\pic[shift={ (1,0,0) }] at (1x1_out-east) 
+    {Box={
+        name=BN_1x1_out,
+        caption=BN,
+        fill=\PoolColor,
+        opacity=0.5,
+        height=10,
+        width=10,
+        depth=0
+        }
+    };
+
+\pic[shift={(13,5,0)}] at (previous_layer-east) 
+    {Box={
+        name=1x1_skip,
+        caption=1x1,
+        xlabel={{256, }},
+        zlabel=56,
+        fill=\ConvColor,
+        height=14,
+        width=16,
+        depth=14
+        }
+    };
+
+\pic[shift={ (1,0,0) }] at (1x1_skip-east) 
+    {Box={
+        name=BN_1x1_skip,
+        caption=BN,
+        fill=\PoolColor,
+        opacity=0.5,
+        height=10,
+        width=10,
+        depth=0
+        }
+    };
+
+\pic[shift={(3.5,0,0)}] at (BN_1x1_out-east) 
+    {Ball={
+        name=sum,
+        fill=\SumColor,
+        opacity=0.6,
+        radius=2.5,
+        logo=$+$
+        }
+    };
+
+\pic[shift={(1,0,0)}] at (sum-east) 
+    {Box={
+        name=relu,
+        caption=ReLU,
+        xlabel={{, }},
+        zlabel=,
+        fill=\GreenColor,
+        height=10,
+        width=10,
+        depth=0
+        }
+    };
+
+\path (previous_layer-east) -- ++(0.5,0,0) coordinate[pos=5] (previous_layer-intermediate) ;
+\path (1x1_skip-west)  -- ++(-0.5,0,0)  coordinate[pos=5] (1x1_skip-intermediate) ;
+\draw [copyconnection]  (previous_layer-east)  
+-- node {\copymidarrow}(previous_layer-intermediate)
+-- node {\copymidarrow}(1x1_skip-intermediate)
+-- node {\copymidarrow} (1x1_skip-west);
+
+\draw [connection]  (1x1_skip-east)    -- node {\midarrow} (BN_1x1_skip-west);
+
+\path (BN_1x1_skip-east) -- ++(0.5,0,0) coordinate[pos=2] (BN_1x1_skip-intermediate) ;
+\path (sum-west)  -- ++(-0.5,0,0)  coordinate[pos=2] (sum-intermediate) ;
+\draw [copyconnection]  (BN_1x1_skip-east)  
+-- node {\copymidarrow}(BN_1x1_skip-intermediate)
+-- node {\copymidarrow}(sum-intermediate)
+-- node {\copymidarrow} (sum-west);
+
+\draw [connection]  (previous_layer-east)    -- node {\copymidarrow} (1x1_in-west);
+
+\draw [connection]  (1x1_in-east)    -- node {\copymidarrow} (BN_1x1_in-west);
+
+\draw [connection]  (relu_1x1_in-east)    -- node {\copymidarrow} (3x3-west);
+
+\draw [connection]  (3x3-east)    -- node {\copymidarrow} (BN_3x3-west);
+
+\draw [connection]  (relu_3x3-east)    -- node {\copymidarrow} (1x1_out-west);
+
+\draw [connection]  (1x1_out-east)    -- node {\copymidarrow} (BN_1x1_out-west);
+
+\draw [connection]  (BN_1x1_out-east)    -- node {\copymidarrow} (sum-west);
+
+\draw [connection]  (sum-east)    -- node {\copymidarrow} (relu-west);
+
+\end{tikzpicture}
+\end{document}
