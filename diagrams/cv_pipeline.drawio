@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
   <diagram name="Page-1" id="bIes6_ukVuZWeVdDMZBp">
-    <mxGraphModel dx="943" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="70" pageHeight="120" math="1" shadow="0">
+    <mxGraphModel dx="1090" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="70" pageHeight="120" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,10 +31,10 @@
         <mxCell id="riMv3vo3rsj0SdCclo5Q-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{Características}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="205" y="45" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="riMv3vo3rsj0SdCclo5Q-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{Datos}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="riMv3vo3rsj0SdCclo5Q-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{Entrada}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-135" y="45" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="riMv3vo3rsj0SdCclo5Q-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{Entrada de}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="riMv3vo3rsj0SdCclo5Q-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{Imágenes de}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-135" y="26" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
