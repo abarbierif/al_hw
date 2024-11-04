@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Nov  3 13:10:33 2024
+# Process ID: 7534
+# Current directory: /home/angelo/Documents/repos/AL_HW/hw_acceleration/projects/testing
+# Command line: vivado -mode batch -source vivado_synth.tcl
+# Log file: /home/angelo/Documents/repos/AL_HW/hw_acceleration/projects/testing/vivado.log
+# Journal file: /home/angelo/Documents/repos/AL_HW/hw_acceleration/projects/testing/vivado.jou
+# Running On        :abarbieri-laptop
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 22.04.5 LTS
+# Processor Detail  :Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+# CPU Frequency     :1460.522 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :7997 MB
+# Swap memory       :32767 MB
+# Total Virtual     :40765 MB
+# Available Virtual :34253 MB
+#-----------------------------------------------------------
+source vivado_synth.tcl
