@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.7.17">
   <diagram name="Page-1" id="h1CNyX8bQsysP33zq0Q3">
-    <mxGraphModel dx="2860" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100" pageHeight="200" math="1" shadow="0">
+    <mxGraphModel dx="1900" dy="13" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100" pageHeight="200" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="XtgH2OvtyGxzAUu25ioU-12" value="$${p_0}_{max_2} = \underset{\textbf{i} \in \{0,...,k\}/\{i*\}}{max} \hspace{1mm} p_i$$" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C6C6C7;rotation=0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-804" y="538" width="180" height="88.36" as="geometry" />
         </mxCell>
-        <mxCell id="XtgH2OvtyGxzAUu25ioU-13" value="$$margin =&amp;nbsp;{p_0}_{max_1} -&amp;nbsp;{p_0}_{max_2}$$ " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C6C6C7;rotation=0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="XtgH2OvtyGxzAUu25ioU-13" value="$$margin_0 =&amp;nbsp;{p_0}_{max_1} -&amp;nbsp;{p_0}_{max_2}$$ " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C6C6C7;rotation=0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-606" y="460" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="XtgH2OvtyGxzAUu25ioU-21" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fillColor=#C6C6C7;" vertex="1" parent="1">
