@@ -171,10 +171,10 @@
           <mxGeometry x="350" y="131" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="47gibG_9NsAA-7ctbUeO-46" value="$$\text{Simulación de}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="195" width="60" height="30" as="geometry" />
+          <mxGeometry x="350" y="196" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="47gibG_9NsAA-7ctbUeO-47" value="$$\text{timing}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="211" width="60" height="30" as="geometry" />
+          <mxGeometry x="350" y="212" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="47gibG_9NsAA-7ctbUeO-48" value="$$\text{Verificación en}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="277" width="60" height="30" as="geometry" />
