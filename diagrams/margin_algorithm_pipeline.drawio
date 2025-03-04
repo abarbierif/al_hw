@@ -1,20 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Page-1" id="Ykw0tnQGzgniFtMDhd3j">
-    <mxGraphModel dx="1380" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="150" math="1" shadow="0">
+    <mxGraphModel dx="2354" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="150" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hjdBpJjyIPGbq1nmFeGQ-1" value="$$\text{Margen}$$" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ACACAC;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="-120" width="240" height="80" as="geometry" />
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#EB877B;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="hjdBpJjyIPGbq1nmFeGQ-1" target="hjdBpJjyIPGbq1nmFeGQ-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hjdBpJjyIPGbq1nmFeGQ-2" value="$$\text{Selección}$$" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1DFD2;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-120" width="240" height="80" as="geometry" />
+        <mxCell id="hjdBpJjyIPGbq1nmFeGQ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ACACAC;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-960" y="-120" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hjdBpJjyIPGbq1nmFeGQ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="-30" width="240" height="330" as="geometry" />
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#EB877B;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="hjdBpJjyIPGbq1nmFeGQ-2" target="AGrxxjrPLN_I4uh5sOZF-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hjdBpJjyIPGbq1nmFeGQ-5" value="&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="-30" width="180" height="120" as="geometry" />
+        <mxCell id="hjdBpJjyIPGbq1nmFeGQ-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1DFD2;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="-120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#EB877B;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="AGrxxjrPLN_I4uh5sOZF-1" target="AGrxxjrPLN_I4uh5sOZF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ACACAC;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1DFD2;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="-120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-8" value="$$\text{Busqueda de las dos}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="-110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-9" value="$$\text{mayores probabilidades}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="-95" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-10" value="$$\text{para cada predicción}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="-80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-11" value="$$\text{Calculo de cada margen}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="-110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-12" value="$$\text{como la diferencia entre}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="-95" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-13" value="$$\text{las dos mayores probabilidades}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="-80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-14" value="$$\text{Ordenamiento de}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="-105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-16" value="$$\text{los márgenes}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="-90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-17" value="$$\text{Selección de}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-18" value="$$\text{los márgenes}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-95" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AGrxxjrPLN_I4uh5sOZF-19" value="$$\text{más pequeños}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-80" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
