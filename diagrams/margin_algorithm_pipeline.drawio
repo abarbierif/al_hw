@@ -72,16 +72,16 @@
           <mxGeometry x="-847" y="4" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sZYv_3ts4cbNwnal5f0-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{Selección}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-697" y="-30.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-697" y="-34.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sZYv_3ts4cbNwnal5f0-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{de los}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-697" y="-15.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-697" y="-19.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sZYv_3ts4cbNwnal5f0-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{márgenes más}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-697" y="-1.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-697" y="-5.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sZYv_3ts4cbNwnal5f0-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{pequeños}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-697" y="14.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-697" y="10.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
