@@ -38,7 +38,7 @@
         <mxCell id="XdS9-hMzR_WeDcCBJd2z-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{AXI GPIO}$$&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ACACAC;" vertex="1" parent="1">
           <mxGeometry x="110" y="237" width="102" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XdS9-hMzR_WeDcCBJd2z-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" source="XdS9-hMzR_WeDcCBJd2z-8" target="XdS9-hMzR_WeDcCBJd2z-13">
+        <mxCell id="XdS9-hMzR_WeDcCBJd2z-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2;startArrow=block;startFill=1;" edge="1" parent="1" source="XdS9-hMzR_WeDcCBJd2z-8" target="XdS9-hMzR_WeDcCBJd2z-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XdS9-hMzR_WeDcCBJd2z-8" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=#ACACAC;" vertex="1" parent="1">
@@ -85,7 +85,7 @@
         <mxCell id="XdS9-hMzR_WeDcCBJd2z-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\text{BRAM}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="411" y="366" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XdS9-hMzR_WeDcCBJd2z-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" source="XdS9-hMzR_WeDcCBJd2z-19" target="XdS9-hMzR_WeDcCBJd2z-16">
+        <mxCell id="XdS9-hMzR_WeDcCBJd2z-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=2;startArrow=block;startFill=1;" edge="1" parent="1" source="XdS9-hMzR_WeDcCBJd2z-19" target="XdS9-hMzR_WeDcCBJd2z-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XdS9-hMzR_WeDcCBJd2z-19" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=#ACACAC;" vertex="1" parent="1">
