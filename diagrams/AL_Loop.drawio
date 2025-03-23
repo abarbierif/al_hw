@@ -130,13 +130,16 @@
           <mxGeometry x="-684" y="-135" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M3TNASMA3s004Lqqm2Os-26" value="$$\text{Selección de}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="27.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-684" y="190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M3TNASMA3s004Lqqm2Os-27" value="$$\text{instancias}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="43.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-684" y="206" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M3TNASMA3s004Lqqm2Os-28" value="$$X^{*}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-851" y="95" width="60" height="30" as="geometry" />
+        <mxCell id="M3TNASMA3s004Lqqm2Os-28" value="$$\langle\textbf{X}^{*},?\rangle$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-851" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M3TNASMA3s004Lqqm2Os-29" value="$$\langle\textbf{X}^{*},y^{*}\rangle$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="80" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
