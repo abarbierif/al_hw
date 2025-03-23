@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.1">
+  <diagram name="Page-1" id="lOTFA-jWAi5URapyRUwF">
+    <mxGraphModel dx="689" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="200" pageHeight="160" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gaTWbrBGNN809XNYuWIH-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gaTWbrBGNN809XNYuWIH-2" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;$$\text{Modelo de Clasificación}$$&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-10" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gaTWbrBGNN809XNYuWIH-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11161730/202104Border-Collie-1420601907-scaled-1.jpg;" vertex="1" parent="1">
+          <mxGeometry x="-129" y="-30" width="120.31" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
