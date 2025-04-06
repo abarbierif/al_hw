@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.8">
   <diagram name="Page-1" id="JL4u2mxxelMSc-7fmqD8">
-    <mxGraphModel dx="2513" dy="1225" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="595" pageHeight="842" math="1" shadow="0">
+    <mxGraphModel dx="2659" dy="1301" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="595" pageHeight="842" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rzx6ohKTUv5QluDNxmhI-21" value="$$\text{Datos anotados}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1490" y="-422" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1515" y="-422" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rzx6ohKTUv5QluDNxmhI-22" value="$$\text{Datos no anotados}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-998" y="-417.5" width="60" height="30" as="geometry" />
