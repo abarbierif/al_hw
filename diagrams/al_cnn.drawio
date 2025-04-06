@@ -58,7 +58,7 @@
           <mxGeometry x="-1515" y="-422" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rzx6ohKTUv5QluDNxmhI-22" value="$$\text{Datos no anotados}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-998" y="-417.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1027" y="-417.5" width="118" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rzx6ohKTUv5QluDNxmhI-23" value="$$\text{Experto/anotador}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1345" y="-271" width="60" height="30" as="geometry" />
