@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.9">
   <diagram name="Page-1" id="DAvheAuIhUx4NKI8dkFm">
-    <mxGraphModel dx="1372" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="150" math="1" shadow="0">
+    <mxGraphModel dx="998" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="150" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,10 +114,10 @@
           <mxGeometry x="120" y="240" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="47gibG_9NsAA-7ctbUeO-10" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Map&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="157.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="160" y="155.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="47gibG_9NsAA-7ctbUeO-11" value="&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;Place and Route&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="171" width="110" height="30" as="geometry" />
+          <mxGeometry x="140" y="173" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="47gibG_9NsAA-7ctbUeO-12" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Generación de archivo&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="112.5" y="240" width="147.5" height="30" as="geometry" />
