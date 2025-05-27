@@ -117,7 +117,7 @@
           <mxGeometry x="160" y="155.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="47gibG_9NsAA-7ctbUeO-11" value="&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;Place and Route&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="173" width="110" height="30" as="geometry" />
+          <mxGeometry x="130" y="172" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="47gibG_9NsAA-7ctbUeO-12" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Generación de archivo&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="112.5" y="240" width="147.5" height="30" as="geometry" />
