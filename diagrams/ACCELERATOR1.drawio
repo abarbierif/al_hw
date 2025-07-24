@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.6">
   <diagram name="Page-1" id="Y3pUBg2xaveTZ1VKXZcr">
-    <mxGraphModel dx="545" dy="287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="595" pageHeight="842" math="1" shadow="0">
+    <mxGraphModel dx="671" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="595" pageHeight="842" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUyjQR1rdF7uxZgqNvzY-146" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;$$\text{Output BRAM}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+        <mxCell id="OUyjQR1rdF7uxZgqNvzY-146" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;$$\text{Input BRAM}$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="42.000000000000114" y="350.2800000000001" width="70.76" height="16.44" as="geometry" />
         </mxCell>
         <mxCell id="OUyjQR1rdF7uxZgqNvzY-410" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
