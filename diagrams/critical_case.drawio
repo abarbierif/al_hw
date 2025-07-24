@@ -34,7 +34,7 @@
         <mxCell id="WzazNWXN2MnLIpAUxc-Z-12" value="$$X_L$$" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="-700" y="-175.5" width="75" height="95.5" as="geometry" />
         </mxCell>
-        <mxCell id="WzazNWXN2MnLIpAUxc-Z-13" value="$$X_U$$" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#666666;shadow=1;strokeColor=#FF6666;dashed=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="WzazNWXN2MnLIpAUxc-Z-13" value="$$X_U$$" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#666666;shadow=1;strokeColor=#006EAF;dashed=1;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-1330" y="-70" width="75" height="95.5" as="geometry" />
         </mxCell>
         <mxCell id="WzazNWXN2MnLIpAUxc-Z-14" value="$$X_U$$" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#666666;shadow=1;fontColor=#FFFFFF;" parent="1" vertex="1">
@@ -61,7 +61,7 @@
         <mxCell id="WzazNWXN2MnLIpAUxc-Z-21" value="$$X_U$$" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#666666;shadow=1;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-710" y="-29.5" width="35" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="WzazNWXN2MnLIpAUxc-Z-23" value="&lt;div style=&quot;line-height: 120%;&quot;&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;&lt;font style=&quot;line-height: 120%; font-size: 10px;&quot;&gt;$$\textbf{Active learning iterations}$$&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fillColor=#B3B3B3;strokeWidth=2;perimeterSpacing=2;opacity=70;" parent="1" vertex="1">
+        <mxCell id="WzazNWXN2MnLIpAUxc-Z-23" value="&lt;div style=&quot;line-height: 120%;&quot;&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;&lt;font style=&quot;line-height: 120%; font-size: 10px; color: rgb(255, 255, 255);&quot;&gt;$$\textbf{Active learning iterations}$$&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fillColor=#006EAF;strokeWidth=2;perimeterSpacing=2;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="-1207.5" y="-305" width="460" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WzazNWXN2MnLIpAUxc-Z-27" value="$$4608$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
