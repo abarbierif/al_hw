@@ -64,7 +64,7 @@
         <mxCell id="wV-b5Z4z198TBdEYeyht-23" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot; face=&quot;Helvetica&quot;&gt;$$\text{Design validation}$$&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="-162.5" y="299" width="225" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="wV-b5Z4z198TBdEYeyht-24" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot; face=&quot;Helvetica&quot;&gt;$$\text{Measurements and comparison}$$&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="wV-b5Z4z198TBdEYeyht-24" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot; face=&quot;Helvetica&quot;&gt;$$\text{Measurements and comparison}$$&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="-370" y="403" width="320" height="35" as="geometry" />
         </mxCell>
         <mxCell id="wV-b5Z4z198TBdEYeyht-26" value="" style="curved=1;endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#000000;endFill=1;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.134;entryY=-0.068;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wV-b5Z4z198TBdEYeyht-3" edge="1">
