@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1MDCjSrTsElOiD71asJS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="100" y="120" width="530" height="400" as="geometry" />
-        </mxCell>
         <mxCell id="1MDCjSrTsElOiD71asJS-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#616161;strokeColor=none;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="136" width="78" height="78" as="geometry" />
         </mxCell>
@@ -16,11 +13,8 @@
         <mxCell id="1MDCjSrTsElOiD71asJS-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-light-vol-1/256/brain-light-128.png;imageBackground=#616161;" vertex="1" parent="1">
           <mxGeometry x="333" y="159" width="32" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="1MDCjSrTsElOiD71asJS-5" value="$$\text{Modelo de}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="319" y="210" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1MDCjSrTsElOiD71asJS-6" value="$$\text{Clasificación}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="319" y="223" width="60" height="30" as="geometry" />
+        <mxCell id="1MDCjSrTsElOiD71asJS-5" value="$$\text{Classifier}$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="319" y="214" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1MDCjSrTsElOiD71asJS-7" value="$$X_L$$" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#CFE6CE;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="250" width="40" height="60" as="geometry" />
