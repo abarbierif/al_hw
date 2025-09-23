@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.4">
   <diagram name="Page-1" id="pB9MQY9FaiaUGlsKX2Bd">
-    <mxGraphModel dx="646" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="1" shadow="0">
+    <mxGraphModel dx="528" dy="278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -547,7 +547,7 @@
             <mxPoint x="875.3600000000001" y="275.692" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pA0EpxCUno9lWZtHD_vb-5" value="&lt;pre align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;The accelerator achieves over &amp;gt;100x speedup on query strategy computation for a critical case while consuming only 0.473 W, early 317x less&lt;br&gt;than a CPU-based platform.&lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pA0EpxCUno9lWZtHD_vb-5" value="&lt;pre align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;The accelerator achieves over &amp;gt;100x speedup on query strategy computation for a critical case while consuming only 0.473 W, nearly 317x less&lt;br&gt;than a CPU-based platform.&lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="85.27" y="849" width="1087" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pA0EpxCUno9lWZtHD_vb-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=5;" vertex="1" parent="1">
