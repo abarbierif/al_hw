@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.4">
   <diagram name="Page-1" id="pB9MQY9FaiaUGlsKX2Bd">
-    <mxGraphModel dx="1585" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="1" shadow="0">
+    <mxGraphModel dx="1342" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,7 +146,7 @@
           <mxGeometry x="85.27" y="829" width="1024.73" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Sqi94YiW67zgGe5_VHtF-43" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px; color: rgb(255, 255, 255);&quot;&gt;Accelerating Active Learning: Pool-Based Framework with FPGA Integration&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="150.59" y="40" width="845.13" height="60" as="geometry" />
+          <mxGeometry x="110.3" y="40" width="909.41" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sqi94YiW67zgGe5_VHtF-44" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#D2C1B6;strokeColor=none;strokeWidth=3;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="764.28" y="354.84000000000015" width="330" height="260" as="geometry" />
